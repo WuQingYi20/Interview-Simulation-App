@@ -1,7 +1,8 @@
 import React from 'react';
 import RegisterLogin from './components/user/registerLogin';
+import MainInterface from './components/mainInterface';
 import axios from 'axios';
-import { useHistory } from 'react-router-dom';
+//import { useHistory } from 'react-router-dom';
 
 
 // Request Interceptor
@@ -32,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <h1>Interview Simulation App</h1>
-      <RegisterLogin />
+      <MainInterface />
       {/* Other components */}
     </div>
   );

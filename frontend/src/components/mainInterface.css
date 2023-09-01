@@ -1,0 +1,45 @@
+.main-container {
+    margin-top: 20px;
+}
+
+.left-nav {
+    border-right: 1px solid #ccc;
+    padding: 20px;
+}
+
+.new-interview-btn {
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.interview-list {
+    margin-bottom: 20px;
+}
+
+.username-btn {
+    width: 90%;
+}
+
+.right-main {
+    padding: 20px;
+}
+
+.chat-box {
+    height: 500px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.input-area {
+    position: relative;
+}
+
+.input-box {
+    resize: none;
+}
+
+.send-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+}
